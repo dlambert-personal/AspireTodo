@@ -1,9 +1,10 @@
 using AspireTodo.ApiService.Data;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.Hosting.Server.Features;
-using TodoStates.CrossCutting.Behaviors;
-using TodoStates.CrossCutting.CQRS;
-using TodoStates.CrossCutting.Exceptions.Handler;
+using Microsoft.Extensions.Options;
+using TodoStates.Shared.Behaviors;
+using TodoStates.Shared.CQRS;
+using TodoStates.Shared.Exceptions.Handler;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -58,8 +59,8 @@ builder.Services.AddLogging(loggingBuilder =>
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<TodoContext>(options =>
-    options.UseSqlite(connectionString));
+builder.Services.AddDbContext<TicketContext>(options =>
+    options.UseSqlite(connectionString).EnableDetailedErrors().EnableSensitiveDataLogging()); 
 
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 

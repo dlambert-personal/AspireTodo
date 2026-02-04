@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using TodoStates.CrossCutting.CQRS;
+using TodoStates.Shared.CQRS;
 ////using MediatR;
 
-namespace TodoStates.CrossCutting.Behaviors;
+namespace TodoStates.Shared.Behaviors;
 
 
 public delegate Task<TResponse> RequestHandlerDelegate<TResponse>(CancellationToken cancellationToken = default);

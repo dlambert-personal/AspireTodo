@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace TodoStates.CrossCutting.Exceptions.Handler;
+namespace TodoStates.Shared.Exceptions.Handler;
 public class CustomExceptionHandler
     (ILogger<CustomExceptionHandler> logger)
     : IExceptionHandler

@@ -1,4 +1,4 @@
-namespace TodoStates.CrossCutting.CQRS;
+namespace TodoStates.Shared.CQRS;
 
 public interface IDispatcher
 {

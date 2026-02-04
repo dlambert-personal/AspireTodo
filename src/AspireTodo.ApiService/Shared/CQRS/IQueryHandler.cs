@@ -1,6 +1,6 @@
 ﻿//using MediatR;
 
-namespace TodoStates.CrossCutting.CQRS;
+namespace TodoStates.Shared.CQRS;
 public interface IQueryHandler<in TQuery, TResponse>
     where TQuery : IQuery<TResponse>
 {

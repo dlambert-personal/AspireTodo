@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
-using TodoStates.CrossCutting.Behaviors;
+using TodoStates.Shared.Behaviors;
 
-namespace TodoStates.CrossCutting.CQRS;
+namespace TodoStates.Shared.CQRS;
 
 public class Dispatcher : IDispatcher
 {

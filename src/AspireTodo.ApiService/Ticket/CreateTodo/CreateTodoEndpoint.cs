@@ -1,5 +1,5 @@
 ﻿using Mapster;
-using TodoStates.CrossCutting.CQRS;
+using TodoStates.Shared.CQRS;
 
 namespace AspireTodo.ApiService.Todo.CreateToDo;
 

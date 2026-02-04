@@ -1,5 +1,5 @@
 ﻿//using MediatR;
-namespace TodoStates.CrossCutting.CQRS;
+namespace TodoStates.Shared.CQRS;
 
 //todo: look at this interface
 //public interface ICommandHandler<in TCommand>
