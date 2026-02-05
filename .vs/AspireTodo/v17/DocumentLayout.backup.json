@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dlamb\\source\\sandbox\\apsireTodo\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|c:\\users\\dlambert\\source\\repos\\dlambert-personal\\aspiretodo\\src\\aspiretodo.apiservice\\aspiretodo.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|solutionrelative:src\\aspiretodo.apiservice\\aspiretodo.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|c:\\users\\dlambert\\source\\repos\\dlambert-personal\\aspiretodo\\src\\aspiretodo.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|solutionrelative:src\\aspiretodo.apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|c:\\users\\dlambert\\source\\repos\\dlambert-personal\\aspiretodo\\src\\aspiretodo.apiservice\\data\\ticketcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|solutionrelative:src\\aspiretodo.apiservice\\data\\ticketcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|c:\\users\\dlambert\\source\\repos\\dlambert-personal\\aspiretodo\\src\\aspiretodo.apiservice\\ticket\\gettodos\\getticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51E666D6-5FCD-E672-752F-2FE0AC2615D4}|src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj|solutionrelative:src\\aspiretodo.apiservice\\ticket\\gettodos\\getticketsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -18,6 +43,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AspireTodo.ApiService",
+              "DocumentMoniker": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj",
+              "RelativeDocumentMoniker": "src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj",
+              "ToolTip": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj*",
+              "RelativeToolTip": "src\\AspireTodo.ApiService\\AspireTodo.ApiService.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-03T22:17:08.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetTicketsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Ticket\\GetTodos\\GetTicketsQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\AspireTodo.ApiService\\Ticket\\GetTodos\\GetTicketsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Ticket\\GetTodos\\GetTicketsQueryHandler.cs",
+              "RelativeToolTip": "src\\AspireTodo.ApiService\\Ticket\\GetTodos\\GetTicketsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T21:55:05.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketContext.cs",
+              "DocumentMoniker": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Data\\TicketContext.cs",
+              "RelativeDocumentMoniker": "src\\AspireTodo.ApiService\\Data\\TicketContext.cs",
+              "ToolTip": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Data\\TicketContext.cs",
+              "RelativeToolTip": "src\\AspireTodo.ApiService\\Data\\TicketContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T21:51:52.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Program.cs",
+              "RelativeDocumentMoniker": "src\\AspireTodo.ApiService\\Program.cs",
+              "ToolTip": "C:\\Users\\dlambert\\source\\repos\\dlambert-personal\\AspireTodo\\src\\AspireTodo.ApiService\\Program.cs",
+              "RelativeToolTip": "src\\AspireTodo.ApiService\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T21:51:37.282Z",
+              "EditorCaption": ""
             }
           ]
         }
