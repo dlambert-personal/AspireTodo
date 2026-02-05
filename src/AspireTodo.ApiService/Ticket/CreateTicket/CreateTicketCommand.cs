@@ -1,11 +1,11 @@
 ﻿using AspireTodo.ApiService.Data;
 using TodoStates.Shared.CQRS;
 
-namespace AspireTodo.ApiService.Todo.CreateToDo;
+namespace AspireTodo.ApiService.Ticket.CreateTicket;
 
-internal class CreateTodoCommandHandler(TicketContext context) : ICommandHandler<CreateTodoCommand, CreateTodoResponse>
+internal class CreateTicketCommandHandler(TicketContext context) : ICommandHandler<CreateTicketCommand, CreateTicketResponse>
 {
-    public async Task<CreateTodoResponse> Handle(CreateTodoCommand command, CancellationToken cancellationToken)
+    public async Task<CreateTicketResponse> Handle(CreateTicketCommand command, CancellationToken cancellationToken)
     {
         //todo: implement mapster
         var ticketItem = new TicketItem
@@ -20,6 +20,6 @@ internal class CreateTodoCommandHandler(TicketContext context) : ICommandHandler
         context.TicketItems.Add(ticketItem);
         await context.SaveChangesAsync(cancellationToken);
 
-        return new CreateTodoResponse(ticketItem.Id);
+        return new CreateTicketResponse(ticketItem.Id);
     }
 }

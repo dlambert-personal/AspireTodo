@@ -12,7 +12,7 @@ namespace AspireTodo.ApiService.Migrations
 {
     [DbContext(typeof(TicketContext))]
     [Migration("20260203231002_initial")]
-    partial class initial
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,2 +1,2 @@
-﻿namespace TodoStates.Shared.Pagination;
+namespace TodoStates.Shared.Pagination;
 public record PaginationRequest(int PageIndex = 0, int PageSize = 10);

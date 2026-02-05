@@ -1,9 +1,11 @@
 @page "/tickets"
+@using AspireTodo.Shared.Pagination
 @using AspireTodo.Web
 @attribute [StreamRendering(true)]
 @attribute [OutputCache(Duration = 5)]
 
 @inject TicketApiClient TicketApi
+@inject ILogger<Tickets> Logger
 
 <PageTitle>Tickets</PageTitle>
 
@@ -40,10 +42,11 @@ else
 }
 
 @code {
-    private Ticket[]? tickets;
+    private TicketItem[]? tickets;
 
     protected override async Task OnInitializedAsync()
     {
         tickets = await TicketApi.GetTicketsAsync();
+        Logger.LogInformation("Loaded {TicketCount} tickets from API.", tickets?.Length ?? 0);
     }
 }

@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireTodo.ServiceDefaults\AspireTodo.ServiceDefaults.csproj" />
-    <ProjectReference Include="..\AspireTodo.ServiceDefaults\AspireTodo.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\AspireTodo.Shared\AspireTodo.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="Shared\" />
+    <Folder Include="Shared\Pagination\" />
   </ItemGroup>
 
 </Project>

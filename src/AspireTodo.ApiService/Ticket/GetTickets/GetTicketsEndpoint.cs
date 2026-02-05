@@ -1,5 +1,5 @@
+using AspireTodo.Shared.Pagination;
 using TodoStates.Shared.CQRS;
-using TodoStates.Shared.Pagination;
 
 namespace AspireTodo.ApiService.Ticket.GetTickets;
 public class GetTicketsEndpoint : ICarterModule
